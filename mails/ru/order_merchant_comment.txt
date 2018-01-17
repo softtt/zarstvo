@@ -1,0 +1,13 @@
+
+[{shop_url}]
+
+Здравствуйте, {firstname}
+
+Вы получили новое сообщение от
+магазина {shop_name} о заказе под номером
+{order_name}.
+
+СООБЩЕНИЕ: {message}
+
+{shop_name} [{shop_url}]
+

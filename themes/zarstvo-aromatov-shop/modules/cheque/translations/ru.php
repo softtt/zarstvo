@@ -1,0 +1,36 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{cheque}zarstvo-aromatov-shop>payment_execution_8520b283b0884394b13b80d5689628b3'] = 'Оплата чеком';
+$_MODULE['<{cheque}zarstvo-aromatov-shop>payment_execution_f1d3b424cd68795ecaa552883759aceb'] = 'Информация о заказе';
+$_MODULE['<{cheque}zarstvo-aromatov-shop>payment_execution_879f6b8877752685a966564d072f498f'] = 'Корзина пуста.';
+$_MODULE['<{cheque}zarstvo-aromatov-shop>payment_execution_76ca011e4772bfcce26aecd42c598510'] = 'Вы выбрали оплату чеком.';
+$_MODULE['<{cheque}zarstvo-aromatov-shop>payment_execution_c884ed19483d45970c5bf23a681e2dd2'] = 'Краткая информация по вашему заказу:';
+$_MODULE['<{cheque}zarstvo-aromatov-shop>payment_execution_3b3b41f131194e747489ef93e778ed0d'] = 'Итого к оплате по вашему заказу';
+$_MODULE['<{cheque}zarstvo-aromatov-shop>payment_execution_1f87346a16cf80c372065de3c54c86d9'] = '(вкл. НДС)';
+$_MODULE['<{cheque}zarstvo-aromatov-shop>payment_execution_7b1c6e78d93817f61f2b1bbc2108a803'] = 'Мы принимаем разные валюты.';
+$_MODULE['<{cheque}zarstvo-aromatov-shop>payment_execution_a7a08622ee5c8019b57354b99b7693b2'] = 'Выберите одно из следующих действий:';
+$_MODULE['<{cheque}zarstvo-aromatov-shop>payment_execution_f73ad0f08052884ff465749bf48b55ce'] = 'Оплата чеком возможна в этих валютах:';
+$_MODULE['<{cheque}zarstvo-aromatov-shop>payment_execution_7135ff14c7931e1c8e9d33aff3dfc7f7'] = 'Владелец чека и адрес будут отображены на следующей странице.';
+$_MODULE['<{cheque}zarstvo-aromatov-shop>payment_execution_0881a11f7af33bc1b43e437391129d66'] = 'Пожалуйста, подтвердите ваш заказ, нажав на \"Я подтверждаю заказ\"';
+$_MODULE['<{cheque}zarstvo-aromatov-shop>payment_execution_569fd05bdafa1712c4f6be5b153b8418'] = 'Другие способы оплаты';
+$_MODULE['<{cheque}zarstvo-aromatov-shop>payment_execution_46b9e3665f187c739c55983f757ccda0'] = 'Я подтверждаю заказ';
+$_MODULE['<{cheque}zarstvo-aromatov-shop>infos_14e41f4cfd99b10766cc15676d8cda66'] = 'Этот модуль позволяет вам принимать платежи чеком.';
+$_MODULE['<{cheque}zarstvo-aromatov-shop>infos_e444fe40d43bccfad255cf62ddc8d18f'] = 'Если клиент выберет этот способ оплаты, то статус заказа изменится на \"Ожидание оплаты\"';
+$_MODULE['<{cheque}zarstvo-aromatov-shop>infos_8c88bbf5712292b26e2a6bbeb0a7b5c4'] = 'Поэтому Вам будет необходимо вручную подтвердить заказ, как только Вы получите чек.';
+$_MODULE['<{cheque}zarstvo-aromatov-shop>payment_return_88526efe38fd18179a127024aba8c1d7'] = 'Ваш заказ на %s оформлен.';
+$_MODULE['<{cheque}zarstvo-aromatov-shop>payment_return_61da27a5dd1f8ced46c77b0feaa9e159'] = 'Ваш чек должен включать:';
+$_MODULE['<{cheque}zarstvo-aromatov-shop>payment_return_621455d95c5de701e05900a98aaa9c66'] = 'Сумму платежа.';
+$_MODULE['<{cheque}zarstvo-aromatov-shop>payment_return_9b8f932b1412d130ece5045ecafd1b42'] = 'Оплата за заказ';
+$_MODULE['<{cheque}zarstvo-aromatov-shop>payment_return_9a94f1d749a3de5d299674d6c685e416'] = 'Отправить на';
+$_MODULE['<{cheque}zarstvo-aromatov-shop>payment_return_e1c54fdba2544646684f41ace03b5fda'] = 'Не забудьте указать номер вашего заказа: %d.';
+$_MODULE['<{cheque}zarstvo-aromatov-shop>payment_return_4761b03b53bc2b3bd948bb7443a26f31'] = 'Не забудьте указать код вашего заказа: %s.';
+$_MODULE['<{cheque}zarstvo-aromatov-shop>payment_return_610abe74e72f00210e3dcb91a0a3f717'] = 'Вам отправлено электронное письмо с данной информацией.';
+$_MODULE['<{cheque}zarstvo-aromatov-shop>payment_return_ffd2478830ca2f519f7fe7ee259d4b96'] = 'Ваш заказ будет отправлен как только мы получим оплату.';
+$_MODULE['<{cheque}zarstvo-aromatov-shop>payment_return_0db71da7150c27142eef9d22b843b4a9'] = 'По любым вопросам или за дополнительной информацией обратитесь к нашей';
+$_MODULE['<{cheque}zarstvo-aromatov-shop>payment_return_decce112a9e64363c997b04aa71b7cb8'] = 'клиентской службой.';
+$_MODULE['<{cheque}zarstvo-aromatov-shop>payment_return_9bdf695c5a30784327137011da6ef568'] = 'С вашим заказом возникла проблема. Если вы полагаете, что это ошибка, вы можете связаться с нами';
+$_MODULE['<{cheque}zarstvo-aromatov-shop>payment_f05fd8637f8a6281466a507fcb56baec'] = 'Оплата чеком';
+$_MODULE['<{cheque}zarstvo-aromatov-shop>payment_4b80fae2153218ed763bdadc418e8589'] = 'Оплата чеком';
+$_MODULE['<{cheque}zarstvo-aromatov-shop>payment_4e1fb9f4b46556d64db55d50629ee301'] = '(обработка заказа продлится дольше)';

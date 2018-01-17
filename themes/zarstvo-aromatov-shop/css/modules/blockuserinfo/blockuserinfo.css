@@ -1,0 +1,24 @@
+.header_user_info {
+  float: right;
+  height: 36px; }
+  .header_user_info a {
+    font: normal 14px/24px "Exo 2", Arial, sans-serif !important;
+    color: #fff;
+    display: block;
+    padding: 6px 10px;
+    cursor: pointer;
+    line-height: 18px; }
+    @media (max-width: 479px) {
+      .header_user_info a {
+        font-size: 11px; } }
+    .header_user_info a:hover, .header_user_info a.active {
+      background: #473948; }
+  .header_user_info p {
+    font: normal 14px/24px "Exo 2", Arial, sans-serif;
+    color: #fff;
+    display: block;
+    padding: 6px 10px;
+    cursor: default;
+    line-height: 24px; }
+    .header_user_info p.discount {
+      font-style: italic; }

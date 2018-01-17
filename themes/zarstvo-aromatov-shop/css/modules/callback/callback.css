@@ -1,0 +1,56 @@
+#callback-link {
+  float: left;
+  height: 36px; }
+  #callback-link a {
+    font: normal 14px/24px "Exo 2", Arial, sans-serif !important;
+    color: #fff;
+    display: block;
+    padding: 6px 10px;
+    cursor: pointer;
+    line-height: 18px; }
+    #callback-link a:hover {
+      text-decoration: none;
+      background: #473948; }
+    #callback-link a:focus {
+      text-decoration: none; }
+    #callback-link a i {
+      margin-right: 8px; }
+
+#callback_form * {
+  font-family: "Exo 2", Arial, sans-serif; }
+#callback_form .header_callback_form {
+  text-align: center;
+  border-bottom: 1px solid #c3c3c3;
+  margin-bottom: 12px; }
+  #callback_form .header_callback_form h2 {
+    font-size: 24px;
+    margin-top: 0px; }
+#callback_form .callback_content label {
+  font-weight: normal; }
+#callback_form .callback_content sum {
+  color: #DF5656; }
+#callback_form .callback_content input, #callback_form .callback_content textarea {
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 2px 5px;
+  border: 1px solid #767175; }
+  #callback_form .callback_content input.required, #callback_form .callback_content input.error, #callback_form .callback_content textarea.required, #callback_form .callback_content textarea.error {
+    border: 1px solid #a27474;
+    -moz-box-shadow: inset 0 0px 0px #a27474, 0 0 3px #F9B3B3;
+    -webkit-box-shadow: inset 0 0px 0px #a27474, 0 0 3px #F9B3B3;
+    box-shadow: inset 0 0px 0px #a27474, 0 0 3px #F9B3B3; }
+  #callback_form .callback_content input.ok, #callback_form .callback_content textarea.ok {
+    border: 1px solid #677945;
+    -moz-box-shadow: inset 0 0px 0px #677945, 0 0 3px #E7F5A1;
+    -webkit-box-shadow: inset 0 0px 0px #677945, 0 0 3px #E7F5A1;
+    box-shadow: inset 0 0px 0px #677945, 0 0 3px #E7F5A1; }
+#callback_form .callback_content textarea {
+  height: 60px; }
+#callback_form .callback_content p.error, #callback_form .callback_content p.success {
+  text-align: center; }
+#callback_form .callback_content p.error {
+  color: #DF5656; }
+#callback_form .callback_content p.success {
+  color: #677945; }
+#callback_form .callback_content .button {
+  width: 100%; }

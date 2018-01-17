@@ -1,0 +1,12 @@
+
+[{shop_url}]
+
+Здравствуйте, {firstname}
+
+Вы получили персональную скидку в {shop_name}.
+
+Код Вашей персональной скидки {discount_code}
+
+Размер скидки составляет {discount_percent}%.
+
+{shop_name} [{shop_url}]

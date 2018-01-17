@@ -1,0 +1,31 @@
+@import "compass";
+@import "theme_variables";
+.header_user_info {
+	float: right;
+	height: 36px;
+	a {
+		font: $fond-header-default !important;
+		color: #fff;
+		display: block;
+		padding: 6px 10px;
+		cursor: pointer;
+		line-height:18px;
+		@media (max-width: $screen-xs - 1) {
+			font-size: 11px;
+		}
+		&:hover, &.active {
+			background: $darker-heading-color;
+		}
+	}
+	p {
+		font: $fond-header-default;
+		color: #fff;
+		display: block;
+		padding: 6px 10px;
+		cursor: default;
+		line-height: 24px;
+		&.discount {
+			font-style: italic;
+		}
+	}
+}

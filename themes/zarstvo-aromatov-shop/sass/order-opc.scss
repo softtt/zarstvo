@@ -1,0 +1,279 @@
+@import "compass";
+@import "theme_variables";
+
+/********************************************************
+            One-Page Checkout Styles
+********************************************************/
+
+#order-opc {
+    line-height: 20px;
+    .box {
+        padding-bottom: 10px;
+    }
+    .cart_navigation {
+        margin-bottom: 53px;
+    }
+    .page-heading.step-num {
+        position: relative;
+        padding-left: 45px;
+        overflow: visible;
+        span {
+            font-weight: bold;
+            font-size: 42px;
+            line-height: 51px;
+            font-style: italic;
+            color: $base-text-color;
+            position: absolute;
+            left: 10px;
+            top: -14px;
+        }
+    }
+    .form-group {
+        margin-bottom: 10px;
+        @media (max-width: $screen-xs-max) {
+            width: 100%;
+        }
+        div.radio {
+            height: 32px;
+            span {
+                line-height: 32px;
+                top: 0px;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+        div.radio.hover span, div.radio.focus span {
+            background-position: 0px -243px;
+            &.checked {
+                background-position: -13px -243px;
+            }
+        }
+        &.payment-methods {
+            .payment_method {
+                height: 32px;
+                padding: 0px;
+                margin: 5px 0px;
+                .payment-label {
+                    line-height: 32px;
+                    height: 32px;
+                    vertical-align: middle;
+                    display: inline-block;
+                    cursor: pointer;
+                }
+                .payment-icon {
+                    height: 32px;
+                    width: 32px;
+                    display: inline-block;
+                    vertical-align: middle;
+                    background-image: url('../img/payment-big-icons-2015-06-01.png');
+                    margin-left: 10px;
+                    &.cashpayment {
+                        background-image: url('../img/payment_icons.png');
+                        background-position: 352px 74px;
+                        width: 44px;
+                        height: 30px;
+                    }
+                    &.paymentondelivery {
+                        background-image: url('../img/payment_icons.png');
+                        background-position: 352px 74px;
+                        width: 44px;
+                        height: 30px;
+                    }
+                    &.prepayment {
+                        background-image: url('../img/payment_icons.png');
+                        background-position: 352px 74px;
+                        width: 44px;
+                        height: 30px;
+                    }
+                    &.ym_PC {background-position: -32px -75px;}
+                    &.ym_AC {background-position: 0px -43px;}
+                    &.ym_WM {background-position: -126px 0px;}
+                    &.ym_SB {background-position: -94px -32px;}
+                    &.ym_AB {background-position: -62px 0px;}
+                    &.ym_PB {background-position: -64px -75px;}
+                    &.ym_MA {background-position: 0px -75px;}
+                }
+                &.disabled {
+                    .payment-label {
+                        color: #999;
+                        cursor: no-drop;
+                    }
+                }
+            }
+        }
+        .form-control {
+            max-width: 300px;
+            width: 300px;
+            @media (max-width: $screen-xs-max) {
+                max-width: initial;
+                width: 100%;
+            }
+        }
+        &.personal-discount-info {
+            color: #507806;
+            font-style: italic;
+            margin-top: 15px;
+            #discount_card {
+                max-width: 100%;
+                width: 100%;
+            }
+            p#discount_card {
+                font-size: 15px;
+            }
+        }
+        &.block-left {
+            float: left;
+            margin-right: 20px;
+        }
+        &.block-full-width {
+            display: inline-block;
+            width: 100%;
+            margin-top: 5px;
+            label {
+                float: left;
+                line-height: 31px;
+                margin-right: 10px;
+                margin-bottom: 0px;
+            }
+            .form-control {
+                min-width: 500px;
+                display: inline-block;
+                width: 500px;
+                float: right;
+                @media (max-width: $screen-xs-max) {
+                    min-width: 285px;
+                    width: 285px;
+                    float: left;
+                }
+            }
+        }
+
+        &#select_bonus {
+            background: #DF5656;
+            color: #fff;
+            padding-bottom: 5px;
+            border-radius: 3px;
+            label {
+                color: #fff;
+                width: 100%;
+                margin: 0;
+                text-align: center;
+            }
+            .bonus {
+                .radio {
+                    float: left;
+                    display: inline-block;
+                    height: auto;
+                }
+                label {
+                    display: inline-block;
+                    float: left;
+                    width: auto;
+                    line-height: 18px;
+                    margin-left: 3px;
+                }
+            }
+        }
+    }
+    .lost_password {
+        display: inline-block;
+        text-decoration: underline;
+        margin: 5px 0 14px;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+    .title_block {
+        font-weight: bold;
+        color: $base-text-color;
+        padding: 3px 0 6px;
+    }
+    .opc-button {
+        padding: 11px 0 0 0;
+    }
+    ul.bullet {
+        line-height: 22px;
+        margin-bottom: 5px;
+    }
+    .date-select {
+        padding-bottom: 10px;
+    }
+    .opc-add-save {
+        margin-top: 20px;
+        // padding-top: 20px;
+        height: 45px;
+    }
+    .message-block {
+        .title {
+            display: inline-block;
+            width: 100%;
+        }
+    }
+    #message {
+        margin-bottom: 20px;
+        max-width: initial;
+        width: 100%;
+        height: initial;
+        font-style: italic;
+        @media (max-width: $screen-xs-max) {
+            max-width: 285px;
+            width: 285px;
+        }
+    }
+    #opc_payment_methods {
+        margin-bottom: 30px;
+        p.warning{
+            color: #F13340;
+            font-weight: 700;
+        }
+    }
+    #opc_account {
+        margin-bottom: 30px;
+    }
+    .address_delivery.select {
+        margin-bottom: 15px;
+    }
+    #address_invoice_form.form-group {
+        margin-bottom: 30px;
+    }
+}
+
+// #new_account_form .id_state,
+// #new_account_form .dni,
+// #new_account_form .postcode {
+//  display: none;
+// }
+
+#opc_order_info {
+    .box {
+        #opc_account_form {
+            width: 620px;
+            margin: 0px auto;
+            @media (max-width: $screen-xs-max) {
+                width: 100%;
+            }
+            .postcode, .street, .house, .housing, .apartment {
+                display: inline-block !important;
+                float: left;
+                margin-right: 10px;
+                @media (max-width: $screen-xs-max) {
+                    width: auto;
+                }
+            }
+            .apartment {
+                margin-right: 0px;
+            }
+            #postcode {
+                width: 115px;
+            }
+            #street {
+                width: 260px;
+            }
+            #house, #housing, #apartment {
+                width: 68px;
+            }
+        }
+    }
+}
+

@@ -1,0 +1,160 @@
+/**
+  * Social Network connect modules
+  * frsnconnect 0.15 by froZZen
+ */
+ 
+#frsnconnect_form {
+   clear: both;
+}
+
+#frsn_createaccount_errors {
+    margin: 10px 10px 15px;
+}
+
+#frsnconnect_form .form_content {
+    width: 271px;
+    margin: 0px auto;
+    padding: 15px 10px;
+}
+
+
+#frsnconnect_form h3.page-subheading {
+    font-family: "Exo 2", Arial, sans-serif;
+    font-weight: normal;
+    color: #677945;
+    font-size: 16px;
+    padding: 0 0 10px;
+    line-height: normal;
+    margin-bottom: 12px;
+    border-bottom: 2px solid #677945;
+}
+
+#frsnconnect_form h4 {
+    color: #333333;
+    font-size: 11px;
+    padding-bottom: 22px;
+}
+
+#frsnconnect_form fieldset {
+    height:auto; 
+}
+
+input#SubmitCreate_fb_id,
+input#SubmitCreate_ok_id,
+input#SubmitCreate_tw_id,
+input#SubmitCreate_gl_id,
+input#SubmitCreate_ya_id,
+input#SubmitCreate_mr_id,
+input#SubmitCreate_vk_id {
+    background-color: #666666;    
+    height: 32px;
+    width: 32px;
+    border: none;
+    cursor: pointer;
+    background-image: url(img/snbuts.png);
+    background-repeat: no-repeat; 
+}
+
+input#SubmitCreate_fb_id:hover,
+input#SubmitCreate_ok_id:hover,
+input#SubmitCreate_tw_id:hover,
+input#SubmitCreate_gl_id:hover,
+input#SubmitCreate_ya_id:hover,
+input#SubmitCreate_mr_id:hover,
+input#SubmitCreate_vk_id:hover {
+    background-color: #383838;     
+}
+
+input.submit_fb_id {
+    background-position: 0 0;
+}
+
+input.submit_vk_id {
+    background-position: 0 -32px;
+}
+
+input.submit_ok_id {
+    background-position: 0 -64px;
+}
+
+input.submit_tw_id {
+    background-position: 0 -96px;
+}
+
+input.submit_gl_id {
+    background-position: 0 -128px;
+}
+
+input.submit_ya_id {
+    background-position: 0 -160px;
+}
+
+input.submit_mr_id {
+    background-position: 0 -192px;
+}
+
+.frsnconnect-myaccount {
+    border: 1px solid #EEEEEE;
+    border-radius: 3px 3px 3px 3px;
+    margin-bottom: 14px;
+    padding: 12px 8px;
+    position: relative;    
+}
+
+.frsnconnect-myaccount .remove {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.frsnconnect-myaccount h3 {
+    color: #000000;
+    font-size: 13px;
+    padding: 0 0 10px;
+}
+
+
+.frsnconnect-myaccount a.serv_img_link {
+    display: block;
+    float: left;
+    margin-right: 14px;
+    overflow: hidden;
+    position: relative;
+    height: 48px;
+    width: 48px;
+}
+
+.fb_id_48 {
+    background: url(img/icons48.png) no-repeat; 
+    background-position: 0 0;
+}
+
+.vk_id_48 {
+    background: url(img/icons48.png) no-repeat; 
+    background-position: 0 -48px;
+}
+
+.ok_id_48 {
+    background: url(img/icons48.png) no-repeat; 
+    background-position: 0 -96px;
+}
+
+.tw_id_48 {
+    background: url(img/icons48.png) no-repeat; 
+    background-position: 0 -144px;
+}
+
+.gl_id_48 {
+    background: url(img/icons48.png) no-repeat; 
+    background-position: 0 -192px;
+}
+
+.ya_id_48 {
+    background: url(img/icons48.png) no-repeat; 
+    background-position: 0 -240px;
+}
+
+.mr_id_48 {
+    background: url(img/icons48.png) no-repeat; 
+    background-position: 0 -288px;
+}

@@ -1,0 +1,1 @@
+ALTER TABLE ps_customer ADD COLUMN avatar tinyint(1) unsigned NOT NULL DEFAULT '0';

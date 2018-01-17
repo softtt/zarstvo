@@ -1,0 +1,323 @@
+/** custom css for SimpleBlog **/
+.ph_simpleblog .simpleblog-posts .post-additional-info, .ph_simpleblog .simpleblog-posts .post-title, .ph_simpleblog .simpleblog-posts .post-content {
+  padding: 0 !important;
+}
+.post-read-more {
+  text-align: left;
+  float: left;
+  font-weight: 600;
+  font-size: 110%;
+  text-decoration: underline
+}
+.post-title a{
+  color: #685568;
+  text-transform: uppercase;
+  font: 600 140% "Exo 2", Arial, sans-serif;
+  letter-spacing: -0.5px;
+}
+.border-bottom-margin{
+  margin: -12px auto 6px 5px;
+  border-bottom: 1px solid #f0f0f0;
+}
+.post-item{
+  border: 0 !important;
+}
+.ph_simpleblog .simpleblog-posts h2 {
+  border: 0 !important;
+  margin: 18px 0 0 0;
+  padding-bottom: 0;
+}
+.ph_simpleblog .img-responsive {
+  width: 100%;
+}
+.ph_simpleblog > .post-additional-info {
+  background: none;
+  font-size: 14px;
+  color: #685568;
+  padding: 10px 0 !important;
+}
+.ph_simpleblog .simpleblog-posts .post-additional-info {
+  background: none;
+  font-size: 14px;
+  color: #685568;
+  padding: 2px 0 10px !important;
+}
+.ph_simpleblog > .post-additional-info span, .ph_simpleblog .simpleblog-posts .post-additional-info span {
+  color: #685568;
+  margin-right: 45px;
+  border: none;
+}
+.comment-count{
+  font-weight: 600;
+}
+.post-author{
+  font-weight: 600;
+}
+.ph_simpleblog >.post-additional-info span.post-date, .post-comment-date{
+  color: #a1a1a1;
+}
+.share_buttons_for_blog_list{
+  float:right;
+}
+.pagination > li > a, .pagination > li > span {
+  border: none;
+  margin: 0 3px;
+  padding: 2px 8px;
+}
+.pagination > li:first-child > a, .pagination > li:first-child > span, .pagination > li:last-child > a, .pagination > li:last-child > span {
+  color: #5C5C5C;
+}
+.pagination > li > a:hover, .pagination > li > a:focus, .pagination > li > span:hover, .pagination > li > span:focus, .pagination >li.current > span {
+  background-color: #9A829A;
+  color: white;
+}
+.simpleblog-post-item {
+  font: 400 100% "Exo 2", Arial, sans-serif;
+}
+.ph_simpleblog .simpleblog-posts .post-content,  .simpleblog-single > .post-content {
+  color: #5D5D5D;
+  font-size: 105%;
+}
+.recent_post_title{
+  background: #9a829a;
+  color: white;
+  font-weight: 700;
+  font-size: 125%;
+  padding: 15px 0;
+  letter-spacing: -0.75px;
+  margin-bottom: 0;
+}
+.block .recent-posts-block li {
+  padding: 8px 0;
+  border: none;
+}
+.block_content.recent-posts-block ul {
+  max-width: 90%;
+  margin: 0 auto;
+}
+#blog_for_prestashop_column, #blog_for_prestashop_column_second{
+  border: 1px solid #9A829A;
+}
+.overflow-visible{
+  overflow: visible !important;
+}
+.recent_post_name{
+  color: #685568;
+  text-decoration: underline;
+  font-size: 120%;
+  font-weight: 600;
+}
+.recent_post_date{
+  color: #a1a1a1;
+  position: relative;
+}
+.recent_post_date>time {
+  margin: 10px;
+}
+.comments_ul{
+  margin-bottom: 0;
+}
+.block_content.last-comments-block> .comments_ul {
+  max-width: 100%;
+}
+.block_content.last-comments-block> ul:first-child {
+  margin-top: 10px;
+}
+.block_content.last-comments-block> .comments_ul>li.comment_container:last-of-type{
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.block_content.last-comments-block> .comments_ul>li.comment_container {
+  padding-top: 10px;
+  min-height: 80px;
+  //margin-bottom: 10px;
+}
+.block_content.last-comments-block> .comments_ul>li.comment_container:first-of-type {
+  padding-top: 0;
+}
+.block_content.last-comments-block> .comments_ul>li.comment_container:nth-of-type(2n) {
+  background: #f5f5f5;
+}
+ul.comments_ul .comment_author_img {
+  border-radius: 100%;
+  max-width: 60px !important;
+}
+.comment_author_name{
+  font-size: 125%;
+  font-weight: 600;
+  color: #685568;
+  margin-bottom: 5px;
+}
+.share_buttons_for_blog_single{
+  float: right;
+  margin-top: -20px;
+}
+.simpleblog-single > h1 {
+  color: #685568;
+  text-transform: uppercase;
+  font: 600 194% "Exo 2", Arial, sans-serif;
+  letter-spacing: -0.5px;
+  background: #fff;
+  padding: 0;
+  border: none;
+}
+.simpleblog-single .post-meta-info {
+  margin-left: 1px;
+  padding: 0 !important;
+}
+.simpleblog-single .post-meta-info span {
+  margin-right: 35px;
+}
+.simpleblog-single > .post-content {
+  margin-top: 10px;
+}
+#simpleblog-post-comments > .block-title{
+  color: #685568;
+  text-transform: uppercase;
+  font: 600 194% "Exo 2", Arial, sans-serif;
+  letter-spacing: -0.5px;
+  background: #fff;
+  padding: 0;
+  border: none;
+}
+.post-comment-author-img > .comment_author_img {
+  position: relative;
+  z-index: 3;
+  max-width: 115px !important;
+  width: 115px;
+  border-radius: 100%;
+  margin-left: -15px;
+}
+#simpleblog-post-comments .post-comment .post-comment-author {
+  color: #685568;
+  font-style: normal;
+  font-size: 140%;
+  font-weight: 600;
+  letter-spacing: -.25px;
+  margin-top: 10px;
+}
+.right {
+  float: right;
+}
+.left {
+  float: left;
+}
+#simpleblog-post-comments .post-comment .post-comment-content {
+  clear: both;
+  color: #5D5D5D;
+}
+#simpleblog-post-comments .post-comment:nth-child(2n) {
+  background: none;
+}
+#simpleblog-post-comments .post-comment{
+  border: none;
+  margin: 10px auto;
+  -webkit-transition: all 3s;
+  -moz-transition: all 3s;
+  -ms-transition: all 3s;
+  -o-transition: all 3s;
+  transition: all 3s;
+}
+.comment-line-connect
+{
+  position: absolute;
+  width: 3px;
+  z-index: 2;
+  background-color: #EDECED;
+}
+.comment_text{
+  padding-bottom: 10px;
+}
+.button.button-medium span.button-reply{
+  text-transform: none;
+  padding: 7px 19px 9px;
+  // letter-spacing: -1px;
+  line-height: 22px;
+}
+.child-comment-line{
+  background: url("/themes/zarstvo-aromatov-shop/modules/ph_simpleblog/views/templates/front/comments/child-comment.png") no-repeat;
+  margin-top: 45px;
+  height: 21px;
+  z-index: 3;
+  left: 34px;
+  position: relative;
+  }
+#submitNewComment {
+  float: left;
+  margin-left: 17px;
+}
+#submitNewComment>span {
+  padding: 8px 40px;
+}
+div.box>h3.form-comment-heading{
+  text-align: left;
+  color: #5e5e5e;
+  text-transform: none;
+  font-size: 200%;
+  font-weight: 500;
+  overflow: visible;
+}
+.form-group .form-control {
+  border-color: #d4d4d4;
+  border-radius: 2px;
+}
+.form-group textarea.form-control {
+  padding: 5px 15px;
+}
+.form-group {
+  margin-bottom: 8px;
+}
+.form-group input[type=text].form-control{
+  position: relative;
+  height: 35px;
+  padding: 10px 35px;
+  width: 53%;
+}
+label[for=customer_name] {
+  background: url("/themes/zarstvo-aromatov-shop/modules/ph_simpleblog/views/templates/front/sprites.png") no-repeat;
+  width: 32px;
+  height: 32px;
+  background-position: -186px -2px;
+  position: absolute;
+  z-index: 1;
+}
+.button.button-medium span.button-reply-icon {
+  background: url("/themes/zarstvo-aromatov-shop/modules/ph_simpleblog/views/templates/front/sprites.png") no-repeat;
+  margin-left: -2px;
+  margin-right: 3px;
+  font-size: 4px;
+  position: relative;
+  left: -1px;
+  top: -7px;
+  background-position: -291px -9px;
+  display: inline;
+  border: none;
+}
+.icon-blog{
+  background: url("/themes/zarstvo-aromatov-shop/modules/ph_simpleblog/views/templates/front/sprites.png") no-repeat;
+  top: 5px;
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+.icon-blog-calendar{
+  background-position: -101px -12px;
+}
+.icon-blog-pen{
+  background-position: -11px -12px;
+}
+.icon-blog-text{
+  background-position: -144px -12px;
+}
+.margin-right-10{
+  margin-right: 10px;
+}
+.comments_ul .comment_text a{
+  color: inherit;
+}
+.highlight{
+  background-color: #FDFFC5
+}
+#right_column {
+  padding-right: 0;
+}

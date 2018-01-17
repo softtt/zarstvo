@@ -1,0 +1,185 @@
+@import "compass";
+@import "theme_variables";
+#categories_block_top {
+  clear: both;
+  position: relative;
+  margin-top: 13px;
+  display: inline-block;
+  .sf-menu {
+    @media (min-width: $screen-sm) { // min 768px
+      padding: 0px;
+      border: 1px solid #507806;
+      position: relative;
+      left: 0px;
+      z-index: 1;
+      display: table;
+      height: 56px;
+      vertical-align: baseline;
+      width: 100%;
+      > li {
+        position: static;
+        vertical-align: middle;
+        border-left: 1px solid #507806;
+        display: table-cell;
+        float: none;
+        &:first-child {
+          border-left: none;
+        }
+        &:last-child {
+          border-right: none;
+        }
+
+        > a, > p {
+          color: #507806;
+          background: none;
+          font: 600 16px/16px $font-custom;
+          text-transform: uppercase;
+          display: block;
+          padding: 9px 12px;
+          text-align: center;
+          cursor: pointer;
+          &:hover {
+            background: none;
+            text-decoration: underline;
+          }
+          @media (max-width: $screen-sm-max) {
+            font: 600 12px/16px $font-custom;
+          }
+        }
+        > ul {
+          width: 100%;
+          top: 55px;
+          margin: 0px;
+          span.menu_row {
+            position: relative;
+            display: inline-block;
+            width: 100%;
+              > li {
+              display: table;
+              float: left;
+              width: 25%;
+              -webkit-box-sizing: border-box;
+              -moz-box-sizing: border-box;
+              box-sizing: border-box;
+              padding: 0 10px;
+              margin: 5px 0px;
+              min-height: 30px;
+              a {
+                display: table-cell;
+                vertical-align: middle;
+                font: normal 13px "Exo 2";
+                text-transform: none;
+                color: #333;
+                @media (max-width: $screen-sm-max) {
+                  font-size: 12px;
+                }
+              }
+              &:hover {
+                a {
+                  cursor: pointer;
+                  text-decoration: underline;
+                }
+              }
+            }
+          }
+          > .category_thumb {
+            display: block;
+            clear: both;
+            overflow: hidden;
+            width: 100%;
+            img {
+              display: inline-block;
+              width: 33%;
+            }
+          }
+        }
+        h4 {
+          a {
+            font-size: 1.1em;
+            &:before {
+              display: none;
+            }
+          }
+        }
+        .main-level-submenus {
+          position: relative;
+          display: block !important;
+          visibility: visible !important;
+          top: 0;
+          background: none;
+          box-shadow: none;
+          padding: 0;
+          left: 0;
+        }
+      }
+      .category_thumb {
+        display: none;
+      }
+    }
+    @media (min-width: $screen-md-max) {
+      left: -2px;
+    }
+  }
+}
+
+#categories_block_left {
+  margin-bottom: 20px;
+  .block_content > ul {
+    // border-top: 1px solid $base-border-color;
+  }
+  li {
+    position: relative;
+    a {
+      color: #333;
+      display: block;
+      font-size: 13px;
+      padding: 0 10px;
+      margin-bottom: 7px;
+    }
+    span.grower {
+      display: block;
+      background: #f6f6f6;
+      position: absolute;
+      right: 0;
+      top: 0;
+      cursor: pointer;
+      font-family: $font-icon;
+      font-size: 14px;
+      &.OPEN,
+      &.CLOSE {
+        &:before {
+          content: "\f068";
+          display: block;
+          vertical-align: middle;
+          width: 30px;
+          height: 30px;
+          color: $base-text-color;
+          line-height: 30px;
+          text-align: center;
+        }
+      }
+      &.CLOSE:before {
+        content: "\f067";
+        color: silver;
+      }
+    }
+    & span.grower:hover + a,
+    a:hover,
+    a.selected {
+      // background: #f6f6f6;
+      text-decoration: underline;
+    }
+    li {
+      a {
+        font-weight: normal;
+        color: #777777;
+        &:before {
+          content: "\f105";
+          font-family: $font-icon;
+          line-height: 29px;
+          padding-right: 8px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,73 @@
+@import "compass";
+@import "theme_variables";
+#languages-block-top {
+	float: left;
+	position: relative;
+	// max 479px
+	@media (max-width: $screen-xs - 1) {
+		width: 25%;
+	}
+	span.firstWord {
+		display: none;
+	}
+	div.current {
+		font: $fond-header-default !important;
+		color: #af9caf;
+		padding: 6px 10px;
+		// text-shadow: 1px 1px rgba(0,0,0,0.2);
+		cursor: pointer;
+		@media (max-width: $screen-xs - 1) {
+			text-align: center;
+			padding: 9px 5px 10px;
+			font-size: 11px;
+		}
+		strong {
+			color: #777777;
+		}
+		&:after {
+			content: "\f107";
+			font-family: $font-icon;
+			font-size: 18px;
+			line-height: 18px;
+			color: #af9caf;
+			vertical-align: -2px;
+			padding-left: 6px;
+			// max 479px
+			@media (max-width: $screen-xs - 1) {
+				padding-left: 2px;
+				font-size: 13px;
+				line-height: 13px;
+				vertical-align: 0;
+			}
+		}
+		.cur-label {
+			// max 479px
+			@media (max-width: $screen-xs - 1) {
+				display: none;
+			}
+		}
+	}
+	ul {
+		display: none;
+		position: absolute;
+		top: $header-panel-height;
+		left: 0;
+		width: 157px;
+		background: $dark-background;
+		z-index: 2;
+		li {
+			color: $light-text-color;
+			line-height: 35px;
+			font-size: 13px;
+			a,
+			> span {
+				padding: 0 10px 0 12px;
+				display: block;
+				color: $light-text-color;
+			}
+			&.selected, &:hover a {
+				background: $darker-heading-color;
+			}
+		}
+	}
+}

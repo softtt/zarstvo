@@ -1,0 +1,32 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{paymentondelivery}zarstvo-aromatov-shop>paymentondelivery_51816f07d67519f78c79cee1e882b39b'] = 'Наложенный платеж';
+$_MODULE['<{paymentondelivery}zarstvo-aromatov-shop>paymentondelivery_0e037949422bf8fb332ac633b00e9e39'] = '';
+$_MODULE['<{paymentondelivery}zarstvo-aromatov-shop>paymentondelivery_cbe0a99684b145e77f3e14174ac212e3'] = 'Вы точно хотите удалить эти данные?';
+$_MODULE['<{paymentondelivery}zarstvo-aromatov-shop>paymentondelivery_285cb38d23cdf651e85a327334a9e67d'] = '';
+$_MODULE['<{paymentondelivery}zarstvo-aromatov-shop>paymentondelivery_a02758d758e8bec77a33d7f392eb3f8a'] = 'Не задана валюта для этого модуля.';
+$_MODULE['<{paymentondelivery}zarstvo-aromatov-shop>paymentondelivery_bfa43217dfe8261ee7cb040339085677'] = 'Необходимо задать реквизиты.';
+$_MODULE['<{paymentondelivery}zarstvo-aromatov-shop>paymentondelivery_c888438d14855d7d96a2724ee9c306bd'] = 'Настройки обновлены';
+$_MODULE['<{paymentondelivery}zarstvo-aromatov-shop>paymentondelivery_ca8b16df80151b9445c30eddd4489d35'] = 'Оплатить наложенным платежом';
+$_MODULE['<{paymentondelivery}zarstvo-aromatov-shop>paymentondelivery_5dd532f0a63d89c5af0243b74732f63c'] = 'Контактная информация';
+$_MODULE['<{paymentondelivery}zarstvo-aromatov-shop>paymentondelivery_3ec365dd533ddb7ef3d1c111186ce872'] = 'Подробности';
+$_MODULE['<{paymentondelivery}zarstvo-aromatov-shop>paymentondelivery_7acfd3a2ef3dbffd7e4b63a422756897'] = 'Доступные способы оплаты (ID, через запятую)';
+$_MODULE['<{paymentondelivery}zarstvo-aromatov-shop>paymentondelivery_c9cc8cce247e49bae79f15173ce97354'] = 'Сохранить';
+$_MODULE['<{paymentondelivery}zarstvo-aromatov-shop>validation_e2b7dec8fa4b498156dfee6e4c84b156'] = 'Метод оплаты не доступен.';
+$_MODULE['<{paymentondelivery}zarstvo-aromatov-shop>payment_execution_644818852b4dd8cf9da73543e30f045a'] = 'Вернуться к оформлению заказа';
+$_MODULE['<{paymentondelivery}zarstvo-aromatov-shop>payment_execution_6ff063fbc860a79759a7369ac32cee22'] = 'Оформление заказа';
+$_MODULE['<{paymentondelivery}zarstvo-aromatov-shop>payment_execution_f1d3b424cd68795ecaa552883759aceb'] = 'Информация о заказе';
+$_MODULE['<{paymentondelivery}zarstvo-aromatov-shop>payment_execution_879f6b8877752685a966564d072f498f'] = 'Корзина пуста.';
+$_MODULE['<{paymentondelivery}zarstvo-aromatov-shop>payment_execution_c884ed19483d45970c5bf23a681e2dd2'] = 'Краткая информация по вашему заказу:';
+$_MODULE['<{paymentondelivery}zarstvo-aromatov-shop>payment_execution_e2867a925cba382f1436d1834bb52a1c'] = 'Общая сумма вашего заказа';
+$_MODULE['<{paymentondelivery}zarstvo-aromatov-shop>payment_execution_1f87346a16cf80c372065de3c54c86d9'] = '(вкл. НДС)';
+$_MODULE['<{paymentondelivery}zarstvo-aromatov-shop>payment_execution_3dd021316505c0204989f984246c6ff1'] = 'Информация о банковском счете будет показана на следующей странице.';
+$_MODULE['<{paymentondelivery}zarstvo-aromatov-shop>payment_execution_edd87c9059d88fea45c0bd6384ce92b9'] = 'Пожалуйста подтвердите свой заказ, нажав \"Я подтверждаю ​​заказ\".';
+$_MODULE['<{paymentondelivery}zarstvo-aromatov-shop>payment_execution_46b9e3665f187c739c55983f757ccda0'] = 'Я подтверждаю заказ';
+$_MODULE['<{paymentondelivery}zarstvo-aromatov-shop>payment_execution_569fd05bdafa1712c4f6be5b153b8418'] = 'Другие способы оплаты';
+$_MODULE['<{paymentondelivery}zarstvo-aromatov-shop>infos_c2814d08563e1c60d36d072f1a06528c'] = '';
+$_MODULE['<{paymentondelivery}zarstvo-aromatov-shop>infos_563aa978b19cfde59e634530e9cd575f'] = '';
+$_MODULE['<{paymentondelivery}zarstvo-aromatov-shop>infos_b8b564987fd2a06ab4d298ed6e46f74e'] = '';
+$_MODULE['<{paymentondelivery}zarstvo-aromatov-shop>payment_51816f07d67519f78c79cee1e882b39b'] = 'Наложенный платеж';

@@ -1,0 +1,31 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{ph_relatedposts}zarstvo-aromatov-shop>ph_relatedposts_3da9825931dabbd64e2cdde6cecd9511'] = '';
+$_MODULE['<{ph_relatedposts}zarstvo-aromatov-shop>ph_relatedposts_cf6a4817cdafd972c66827c902fe982f'] = '';
+$_MODULE['<{ph_relatedposts}zarstvo-aromatov-shop>ph_relatedposts_80b93d1a4bb899cb12c4c3e5d65eea91'] = '';
+$_MODULE['<{ph_relatedposts}zarstvo-aromatov-shop>ph_relatedposts_d6f47e627cb8b9186caa435aba1c32ae'] = '';
+$_MODULE['<{ph_relatedposts}zarstvo-aromatov-shop>adminsimpleblogrelatedpostscontroller_b718adec73e04ce3ec720dd11a06a308'] = '';
+$_MODULE['<{ph_relatedposts}zarstvo-aromatov-shop>adminsimpleblogrelatedpostscontroller_b77006f2d0398fa7e68ef1a893ef850c'] = '';
+$_MODULE['<{ph_relatedposts}zarstvo-aromatov-shop>adminsimpleblogrelatedpostscontroller_7ede3ad483a76ed293fdf6aa95596103'] = '';
+$_MODULE['<{ph_relatedposts}zarstvo-aromatov-shop>adminsimpleblogrelatedpostscontroller_97f08a40f22a625d0cbfe03db3349108'] = '';
+$_MODULE['<{ph_relatedposts}zarstvo-aromatov-shop>adminsimpleblogrelatedpostscontroller_deb10517653c255364175796ace3553f'] = '';
+$_MODULE['<{ph_relatedposts}zarstvo-aromatov-shop>adminsimpleblogrelatedpostscontroller_d3b206d196cd6be3a2764c1fb90b200f'] = '';
+$_MODULE['<{ph_relatedposts}zarstvo-aromatov-shop>adminsimpleblogrelatedpostscontroller_e25f0ecd41211b01c83e5fec41df4fe7'] = '';
+$_MODULE['<{ph_relatedposts}zarstvo-aromatov-shop>admin-tab_2e140652f28a5fbbc2a2d063f87c8ccb'] = '';
+$_MODULE['<{ph_relatedposts}zarstvo-aromatov-shop>admin-tab_16d18932fb68f512e9a3d44943f8d431'] = '';
+$_MODULE['<{ph_relatedposts}zarstvo-aromatov-shop>admin-tab_aa00b73382a8cb52cceeae967ba3b7f3'] = '';
+$_MODULE['<{ph_relatedposts}zarstvo-aromatov-shop>admin-tab_ec211f7c20af43e742bf2570c3cb84f9'] = '';
+$_MODULE['<{ph_relatedposts}zarstvo-aromatov-shop>admin-tab_2e6116a5ef5a1b41047dc5ef4000d7e5'] = '';
+$_MODULE['<{ph_relatedposts}zarstvo-aromatov-shop>admin-tab_1063e38cb53d94d386f21227fcd84717'] = '';
+$_MODULE['<{ph_relatedposts}zarstvo-aromatov-shop>column-product_394efb42d8bf427587bc4333d7f461f1'] = '';
+$_MODULE['<{ph_relatedposts}zarstvo-aromatov-shop>column_394efb42d8bf427587bc4333d7f461f1'] = '';
+$_MODULE['<{ph_relatedposts}zarstvo-aromatov-shop>product-tab-content_394efb42d8bf427587bc4333d7f461f1'] = '';
+$_MODULE['<{ph_relatedposts}zarstvo-aromatov-shop>product-tab-content_0746618781a2a85b5edf43bd3817064b'] = '';
+$_MODULE['<{ph_relatedposts}zarstvo-aromatov-shop>product-tab-content_43340e6cc4e88197d57f8d6d5ea50a46'] = '';
+$_MODULE['<{ph_relatedposts}zarstvo-aromatov-shop>product-tab_177f0eb97c41c1d839bff85af7cb1120'] = '';
+$_MODULE['<{ph_relatedposts}zarstvo-aromatov-shop>thumbnail_2a4fbc721840a8d4096a0225e85700f6'] = '';
+$_MODULE['<{ph_relatedposts}zarstvo-aromatov-shop>description_5e706a9b7eb9b142a619e4331d6976e6'] = '';
+$_MODULE['<{ph_relatedposts}zarstvo-aromatov-shop>thumbnail_33e453eb46fba825838ad6c84ddc8e4d'] = '';
+$_MODULE['<{ph_relatedposts}zarstvo-aromatov-shop>title_33e453eb46fba825838ad6c84ddc8e4d'] = '';
